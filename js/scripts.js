@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 var survey_stock_image = 'https://images.pexels.com/photos/1188532/pexels-photo-1188532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
-var coach_stock_image = 'https://images.pexels.com/photos/7207359/pexels-photo-7207359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
+var coach_stock_image = 'https://images.pexels.com/photos/3861566/pexels-photo-3861566.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500';
 
 var modal_survey_stock_image = 'https://images.pexels.com/photos/1624600/pexels-photo-1624600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
 var modal_coach_stock_image = 'https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
