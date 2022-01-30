@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 var survey_stock_image = 'https://images.pexels.com/photos/1188532/pexels-photo-1188532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
-var coach_stock_image = 'https://images.pexels.com/photos/3861566/pexels-photo-3861566.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500';
+var coach_stock_image = 'https://images.pexels.com/photos/1506991/pexels-photo-1506991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
 
 var modal_survey_stock_image = 'https://images.pexels.com/photos/1624600/pexels-photo-1624600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
 var modal_coach_stock_image = 'https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
@@ -68,3 +68,10 @@ setStockImage('body-surveyIMG', survey_stock_image);
 setStockImage('modal-surveyIMG', modal_survey_stock_image);
 setStockImage('body-coachIMG', coach_stock_image);
 setStockImage('modal-coachIMG', modal_coach_stock_image);
+
+function detect_Mobile() {
+    var isMobile = window.orientation > -1;
+    if (isMobile) { document.getElementById('UI-Hint').innerHTML = '* Press on the images for more details'; }
+    else { document.getElementById('UI-Hint').innerHTML = '* Click on the images for more details'; }
+}
+detect_Mobile();
